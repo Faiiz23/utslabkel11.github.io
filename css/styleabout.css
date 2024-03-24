@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    background-image: url('https://i.ytimg.com/vi/1Zb6eiinigk/maxresdefault.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    backface-visibility: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #28a745;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.team-member {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.table {
+    opacity: 0.8; 
+    background-color: antiquewhite;
+}

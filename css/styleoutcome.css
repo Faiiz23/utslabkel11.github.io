@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    background-image: url('https://i.ytimg.com/vi/1Zb6eiinigk/maxresdefault.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #28a745;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+.navbar.navbar-black {
+    background-color: black;
+    color: white;
+}
+
+#balance {
+    font-size: 24px;
+    background-color: lightgrey;
+    border: 15px solid grey;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+.transaction-form {
+    margin: 20px;
+}
+.transaction {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transaction.outcome {
+    color: #D22B2B;
+    background-color: #ffb2a4;
+    width: 500px;
+    border: 15px solid #E97451;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    font-family: fantasy;
+    font-size: 30px;
+}
